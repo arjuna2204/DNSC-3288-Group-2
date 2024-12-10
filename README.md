@@ -76,14 +76,14 @@ training, validation, and test data**
 # Ethical considerations: 
 
 * **Describe potential negative impacts of using your model:**
-* Math or software problems 
+* **Math or software problems:** 
 Based on the data, if certain neighborhoods are underrepresented, the calculated predictions may systematically disadvantage specific groups 
 Any missing or incorrectly imputed data could result in unwanted bias, especially in key variables such as LotFrontage or GarageType
-* Real-world risks: who, what, when or how 
+* **Real-world risks: who, what, when or how:** 
 As mentioned previously, with any potential unwanted biases, these biased predictions could influence areas such as property valuation, which would in turn affect underrepresented or minority communities 
 Additionally, the misuse of these predictions could distort market prices or favor certain buyers/sellers
 * **Describe potential uncertainties relating to the impacts of using your model:**
-**Math or software problems** 
+* **Math or software problems:** 
 There could also be transparency issues. For example, complex models like XGBoost or neural networks may act as "black boxes," making it difficult to explain predictions.
 Prediction ranges could also be skewed or not calibrated properly, leading to overconfidence in results 
 * **Real-world risks: who, what, when or how?**
