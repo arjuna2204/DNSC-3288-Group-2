@@ -34,41 +34,41 @@
 * RF and XgBoost: OverallQual, GrLivArea, TotalBsmtSF, 2ndFlrSF, 1stFlrSF, LotArea, GarageArea, YearBuilt, BsmtFinSF1, GarageCars
 * **Column(s) used as target(s) in the final model:**
 *RF and XgBoost: SalePrice
- * **Type of model: **
+ * **Type of model:**
 *RF: Random Forest Regressor 
 *XgBoost model 
 * **Software used to implement the model:**
-*RF: scikit-learn and 
-*XgBoost: xgboost 
+* RF: scikit-learn and 
+* XgBoost: xgboost 
 * **Version of the modeling software:**
-*RF: 1.5.2
-*XgBoost: xgboost version: 2.1.3
+* RF: 1.5.2
+* XgBoost: xgboost version: 2.1.3
 * **Hyperparameters or other settings of your model**
-*RF: n_estimators=100, random_state=42, max_depth=None, min_samples_split=2, min_samples_leaf=1, bootstrap=True
-*XgBoost: After doing an grid search: eta = 0.05, depth = 3, min_child = 4
+* RF: n_estimators=100, random_state=42, max_depth=None, min_samples_split=2, min_samples_leaf=1, bootstrap=True
+* XgBoost: After doing an grid search: eta = 0.05, depth = 3, min_child = 4
 * **Note: our final submission was an average of the predictions from both the models. We did not stack them.**
 
-Random Forest: 
+# Random Forest: 
 ![Random Forest Feature Importances](rf.png)
 ![Random Forest Feature Importance F Score](rf1.png)
 
 # Quantitative analysis:
 ![Correlation Heatmap](heatmap(no_numbers).png)
 ![Heatmap](heatmap.png)
-* **Metrics used to evaluate your final model (AUC and AIR)
-*RF: AUC - 
-*XgBoost: AUC
+* **Metrics used to evaluate your final model (AUC and AIR)**
+* RF: AUC - 
+* XgBoost: AUC
 * **State the final values, neatly -- as bullets or a table, of the metrics for all data:
 training, validation, and test data**
-*RF:
-*![Random Forest AUC](auc1.png)
+* RF:
+* ![Random Forest AUC](auc1.png)
 
 
 
-*XgBoost:
-*![XgBoost AUC](auc2.png)
+* XgBoost:
+* ![XgBoost AUC](auc2.png)
 
-* **Provide any plots related to your data or final model -- be sure to label the plots!
+* **Provide any plots related to your data or final model -- be sure to label the plots!**
 ![XgBoost AUC](xgboost.png)
 ![Random Forest AUC](rfauc.png)
 
@@ -76,14 +76,12 @@ training, validation, and test data**
 # Ethical considerations: 
 
 * **Describe potential negative impacts of using your model:**
-* 
-* **Math or software problems:** Based on the data, if certain neighborhoods are underrepresented, the calculated predictions may systematically disadvantage specific groups 
+* Math or software problems 
+Based on the data, if certain neighborhoods are underrepresented, the calculated predictions may systematically disadvantage specific groups 
 Any missing or incorrectly imputed data could result in unwanted bias, especially in key variables such as LotFrontage or GarageType
-
-* **Real-world risks: who, what, when or how** 
+*Real-world risks: who, what, when or how 
 As mentioned previously, with any potential unwanted biases, these biased predictions could influence areas such as property valuation, which would in turn affect underrepresented or minority communities 
 Additionally, the misuse of these predictions could distort market prices or favor certain buyers/sellers
-
 * **Describe potential uncertainties relating to the impacts of using your model:**
 **Math or software problems** 
 There could also be transparency issues. For example, complex models like XGBoost or neural networks may act as "black boxes," making it difficult to explain predictions.
