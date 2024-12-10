@@ -28,7 +28,7 @@
 * **Number of rows in test data**
 * * There are **1,459** rows of data with **80** columns
 * **State any differences in columns between training and test data**
-*We dropped SalePrice from the training data because it is the target variable trying to be predicted 
+* We dropped SalePrice from the training data because it is the target variable trying to be predicted 
 # Model details:
 * **Columns used as inputs in the final model:**
 * RF and XgBoost: OverallQual, GrLivArea, TotalBsmtSF, 2ndFlrSF, 1stFlrSF, LotArea, GarageArea, YearBuilt, BsmtFinSF1, GarageCars
@@ -79,7 +79,7 @@ training, validation, and test data**
 * Math or software problems 
 Based on the data, if certain neighborhoods are underrepresented, the calculated predictions may systematically disadvantage specific groups 
 Any missing or incorrectly imputed data could result in unwanted bias, especially in key variables such as LotFrontage or GarageType
-*Real-world risks: who, what, when or how 
+* Real-world risks: who, what, when or how 
 As mentioned previously, with any potential unwanted biases, these biased predictions could influence areas such as property valuation, which would in turn affect underrepresented or minority communities 
 Additionally, the misuse of these predictions could distort market prices or favor certain buyers/sellers
 * **Describe potential uncertainties relating to the impacts of using your model:**
