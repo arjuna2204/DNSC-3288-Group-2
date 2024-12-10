@@ -28,24 +28,25 @@
 * **Number of rows in test data**
 * * There are **1,459** rows of data with **80** columns
 * **State any differences in columns between training and test data**
-* * We dropped SalePrice from the training data because it is the target variable trying to be predicted 
+* * We dropped SalePrice from the training data because it is the target variable trying to be predicted
+    
 # Model details:
 * **Columns used as inputs in the final model:**
-* *RF and XgBoost: OverallQual, GrLivArea, TotalBsmtSF, 2ndFlrSF, 1stFlrSF, LotArea, GarageArea, YearBuilt, BsmtFinSF1, GarageCars
+* * RF and XgBoost: OverallQual, GrLivArea, TotalBsmtSF, 2ndFlrSF, 1stFlrSF, LotArea, GarageArea, YearBuilt, BsmtFinSF1, GarageCars
 * **Column(s) used as target(s) in the final model:**
-* *RF and XgBoost: SalePrice
+* * RF and XgBoost: SalePrice
  * **Type of model:**
-* *RF: Random Forest Regressor 
-* *XgBoost model 
+* * RF: Random Forest Regressor 
+* * XgBoost model 
 * **Software used to implement the model:**
-* *RF: scikit-learn and 
-* *XgBoost: xgboost 
+* * RF: scikit-learn and 
+* * XgBoost: xgboost 
 * **Version of the modeling software:**
-* *RF: 1.5.2
-* *XgBoost: xgboost version: 2.1.3
+* * RF: 1.5.2
+* * XgBoost: xgboost version: 2.1.3
 * **Hyperparameters or other settings of your model**
-* *RF: n_estimators=100, random_state=42, max_depth=None, min_samples_split=2, min_samples_leaf=1, bootstrap=True
-* *XgBoost: After doing an grid search: eta = 0.05, depth = 3, min_child = 4
+* * RF: n_estimators=100, random_state=42, max_depth=None, min_samples_split=2, min_samples_leaf=1, bootstrap=True
+* * XgBoost: After doing an grid search: eta = 0.05, depth = 3, min_child = 4
 * **Note: our final submission was an average of the predictions from both the models. We did not stack them.**
 
 # Random Forest: 
