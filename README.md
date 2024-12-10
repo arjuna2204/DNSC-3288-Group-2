@@ -76,7 +76,8 @@ training, validation, and test data**
 # Ethical considerations: 
 
 * **Describe potential negative impacts of using your model:**
- **Math or software problems:** Based on the data, if certain neighborhoods are underrepresented, the calculated predictions may systematically disadvantage specific groups 
+* 
+* **Math or software problems:** Based on the data, if certain neighborhoods are underrepresented, the calculated predictions may systematically disadvantage specific groups 
 Any missing or incorrectly imputed data could result in unwanted bias, especially in key variables such as LotFrontage or GarageType
 
 * **Real-world risks: who, what, when or how** 
