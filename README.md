@@ -10,13 +10,13 @@
 * **Out-of-scope uses: None
 
 # Training data:
-* Source of training data
+* **Source of training data**
 * * File called train.csv downloaded kaggle dataset
-* How training data was divided into training and validation data
+* **How training data was divided into training and validation data**
 * * The decided split between training and validation data was 80% training and 20% validation
-* Number of rows in training and validation data
+* **Number of rows in training and validation data**
 * * There are 1,460 rows in total and 81 columns, and given the 80% and 20% split between training and validation, a result of 1,168 rows for training and 292 rows for validation data was devised
-* Data dictionary; for each column in the training dataset include:
+* **Data dictionary; for each column in the training dataset include:**
 * * Displayed as a .csv file in the attached files portion
 *  Modeling role
    * * Measurement level
