@@ -18,7 +18,7 @@
 * * There are 1,460 rows in total and 81 columns, and given the 80% and 20% split between training and validation, a result of 1,168 rows for training and 292 rows for validation data was devised
 * **Data dictionary; for each column in the training dataset include:**
 * * Displayed as a .csv file in the attached files portion
-*  Modeling role
+*  **Modeling role**
    * * Measurement level
    * * Description
    * * Note: This is in a csv file 
