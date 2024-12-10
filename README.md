@@ -28,7 +28,7 @@
 * **Number of rows in test data**
 * * There are **1,459** rows of data with **80** columns
 * **State any differences in columns between training and test data**
-* We dropped SalePrice from the training data because it is the target variable trying to be predicted 
+* * We dropped SalePrice from the training data because it is the target variable trying to be predicted 
 # Model details:
 * **Columns used as inputs in the final model:**
 * RF and XgBoost: OverallQual, GrLivArea, TotalBsmtSF, 2ndFlrSF, 1stFlrSF, LotArea, GarageArea, YearBuilt, BsmtFinSF1, GarageCars
