@@ -33,10 +33,10 @@
 * **Columns used as inputs in the final model:**
 * RF and XgBoost: OverallQual, GrLivArea, TotalBsmtSF, 2ndFlrSF, 1stFlrSF, LotArea, GarageArea, YearBuilt, BsmtFinSF1, GarageCars
 * **Column(s) used as target(s) in the final model:**
-*RF and XgBoost: SalePrice
+* RF and XgBoost: SalePrice
  * **Type of model:**
-*RF: Random Forest Regressor 
-*XgBoost model 
+* RF: Random Forest Regressor 
+* XgBoost model 
 * **Software used to implement the model:**
 * RF: scikit-learn and 
 * XgBoost: xgboost 
