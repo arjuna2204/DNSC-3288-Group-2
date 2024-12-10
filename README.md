@@ -11,7 +11,7 @@
 
 # Training data:
 * Source of training data
-* File called train.csv downloaded kaggle dataset
+* * File called train.csv downloaded kaggle dataset
 * How training data was divided into training and validation data
 * * The decided split between training and validation data was 80% training and 20% validation
 * Number of rows in training and validation data
