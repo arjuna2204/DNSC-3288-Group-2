@@ -89,7 +89,7 @@ Prediction ranges could also be skewed or not calibrated properly, leading to ov
 * **Real-world risks: who, what, when or how?**
 On the economic side of things, property market conditions such as inflation or a potential recession may change or make certain predictions obsolete 
 Zoning changes and new legislations in different areas could also impact key predictors such as MSZoning 
-* **Describe any unexpected or results**
+* **Describe any unexpected or results:**
 There may be a presence of data anomalies such as outliers which can skew model performance and lead to erratic predictions
 Variables could also be misinterpreted, meaning certain variables that have been classified to have lower importance could be perceived as playing a significant role due to the complexity of the data and different variables.
 
