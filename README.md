@@ -17,7 +17,7 @@
 * Number of rows in training and validation data
 * * There are 1,460 rows in total and 81 columns, and given the 80% and 20% split between training and validation, a result of 1,168 rows for training and 292 rows for validation data was devised
 * Data dictionary; for each column in the training dataset include:
-* * Name
+* * Displayed as a .csv file in the attached files portion
 *  *Modeling role
    * * Measurement level
    * * Description
@@ -82,8 +82,8 @@ Any missing or incorrectly imputed data could result in unwanted bias, especiall
 *Real-world risks: who, what, when or how 
 As mentioned previously, with any potential unwanted biases, these biased predictions could influence areas such as property valuation, which would in turn affect underrepresented or minority communities 
 Additionally, the misuse of these predictions could distort market prices or favor certain buyers/sellers
-* **Describe potential uncertainties relating to the impacts of using your model:
-*Math or software problems** 
+* **Describe potential uncertainties relating to the impacts of using your model:**
+**Math or software problems** 
 There could also be transparency issues. For example, complex models like XGBoost or neural networks may act as "black boxes," making it difficult to explain predictions.
 Prediction ranges could also be skewed or not calibrated properly, leading to overconfidence in results 
 * **Real-world risks: who, what, when or how?**
