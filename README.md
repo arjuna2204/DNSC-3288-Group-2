@@ -24,7 +24,7 @@
    * * Note: This is in a csv file 
 # Test data:
 * **Source of test data**
-* A file named test.csv downloaded from kaggle dataset 
+* * A file named test.csv downloaded from kaggle dataset 
 * **Number of rows in test data**
 * * There are **1,459** rows of data with **80** columns
 * **State any differences in columns between training and test data**
